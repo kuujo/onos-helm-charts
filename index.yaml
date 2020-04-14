@@ -18,4 +18,25 @@ entries:
     urls:
     - https://github.com/kuujo/onos-helm-charts/releases/download/atomix-controller-0.1.0/atomix-controller-0.1.0.tgz
     version: 0.1.0
+  onos-topo:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2020-04-14T11:15:15.506614-07:00"
+    description: ONOS Topology service
+    digest: 583f0e501723de3fe20f9063d07eb5bec1c7756ce1b4995e355d827dc5a456ca
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.12.0'
+    maintainers:
+    - email: andrea@opennetworking.org
+      name: Andrea Campanella
+    - email: jordan@opennetworking.org
+      name: kuujo
+    name: onos-topo
+    type: application
+    urls:
+    - https://github.com/kuujo/onos-helm-charts/releases/download/onos-topo-0.0.1/onos-topo-0.0.1.tgz
+    version: 0.0.1
 generated: "2020-04-14T11:13:57.113034-07:00"
