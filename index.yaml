@@ -18,6 +18,28 @@ entries:
     urls:
     - https://github.com/kuujo/onos-helm-charts/releases/download/atomix-controller-0.1.0/atomix-controller-0.1.0.tgz
     version: 0.1.0
+  onos-config:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2020-04-20T16:47:21.111861-07:00"
+    description: ONOS Config Manager
+    digest: 57663a3f64ce88c5ed218c51ff8b1eda1c44ab1decea53c42cab41525982f4e2
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.12.0'
+    maintainers:
+    - email: tom@opennetworking.org
+      name: tomikazi
+    - email: jordan@opennetworking.org
+      name: kuujo
+    - email: andrea@opennetworking.org
+      name: Andrea Campanella
+    name: onos-config
+    urls:
+    - https://github.com/kuujo/onos-helm-charts/releases/download/onos-config-0.0.1/onos-config-0.0.1.tgz
+    version: 0.0.1
   onos-topo:
   - apiVersion: v2
     appVersion: "1"
